@@ -1,0 +1,78 @@
+body { 
+    font-family: 'Fjalla One', sans-serif;
+      background: url("https://miro.medium.com/v2/resize:fit:1400/1*NzLGpAE4V7LJCfibfgIlHA@2x.png") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-top: 10%;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  #dataBoard {
+
+      margin: auto;
+      background-color: rgba(225, 225, 225, 0.8);
+      display: block;
+      height: 50%;
+      width: 80%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 500px;
+    border-radius: 30px;
+  }
+  
+  #dataBox {
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  #searchBox {
+      display: block;
+      background-color: white;
+      min-height: 50px;
+      width: 480px;
+    overflow: hidden;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+  button {
+    color: white;
+    display: block;
+    background: black;
+    border: 2px solid white;
+    float: right;
+      width: 30%;
+    min-height: 50px;
+  }
+  
+  button:hover {
+    opacity: 0.5;
+    color:#F09020;
+    border-color:#F09020;
+  }
+  
+  input {
+    display: block;
+    float: left;
+    background: transparent;
+    border-style: none;
+    min-height: 50px;
+    width: 69%;  
+        
+  }
+  
+  #mainInfo {
+    background-color: #000000;
+    padding: 10px;
+    text-align: right;
+    border-radius: 30px;
+  }
+  #secoInfo {
+    padding: 10px;
+    text-align: left;
+  }
+  img {  
+    border-style: none;
+  }
