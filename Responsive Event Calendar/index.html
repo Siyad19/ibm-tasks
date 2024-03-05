@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="eventApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Event Calendar</title>
+</head>
+<body>
+    <div ng-controller="EventController">
+        <h1>Event Calendar</h1>
+        <div class="calendar">
+            <div class="day" ng-repeat="day in days">
+                <h2>{{ day.date }}</h2>
+                <div class="event" ng-repeat="event in day.events">{{ event }}</div>
+                <button ng-click="addEvent(day)">Add Event</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="script.js"></script>
+       
+</body>
+</html>
+
