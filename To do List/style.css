@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+  }
+   
+  body{
+   background-color: lightseagreen;
+    background-image: url("img/bg-jsn.jpg");
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+  }
+   
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #286090;  
+  }
+   
+  .wrapper{
+    background-image: url("img/notebook.jpg");
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 30%;
+    top: 50px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 420px;
+    border-radius: 20px;
+  }
+   
+  .wrapper2{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+   
+  .form-control{
+    width: 100%;
+    font-size: 14px;
+  }
+   
+  .fa.fa-thumb-tack.fa-2x{
+    color : #337ab7;
+  }
+   
+  .btn.btn-primary.btn-sm{
+    margin-top: 5px;
+    width: 100%;
+    background-color: transparent;
+    color: #286090;  
+    font-size: 14px;
+   } 
+   
+  .btn.btn-warning.btn-xs{
+    background-color: #337ab7;
+    border-color:#337ab7;
+  }
+   
+  .done-true{
+    text-decoration: line-through;
+    color: grey;
+  }
+   
+  .unstyled , .ng-binding, .check{
+      color: #286090; 
+  }
